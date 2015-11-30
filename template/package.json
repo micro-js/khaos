@@ -1,12 +1,12 @@
 {
-  "name": "{{basename}}",
+  "name": "{{npnname}}",
   "description": "{{description}}",
   "repository": "git://github.com/micro-js/{{basename}}.git",
   "version": "0.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
-    "postversion": "git push && git push --tags{{#npm}} && npm publish{{/npm}}"
+    "postversion": "git push && git push --tags && npm publish"
   },
   "dependencies": {},
   "devDependencies": {
