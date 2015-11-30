@@ -1,5 +1,5 @@
 {
-  "name": "{{npnname}}",
+  "name": "{{npmname}}",
   "description": "{{description}}",
   "repository": "git://github.com/micro-js/{{basename}}.git",
   "version": "0.1.0",
