@@ -6,7 +6,7 @@
  * Expose {{camelcase basename}}
  */
 
-module.exports = {{camelcase basename}}['default'] = {{camelcase basename}}
+module.exports = {{camelcase basename}}
 
 /**
  * {{camelcase basename}}
