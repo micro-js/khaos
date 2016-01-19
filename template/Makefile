@@ -21,7 +21,7 @@ init:
 	@git init
 	@git add .
 	@git commit -am "FIRST"
-	@hub create micro-js/{{basename}} -d {{description}}
+	@hub create micro-js/{{basename}} -d "{{description}}"
 	@travis enable
 	@git push -u origin master
 
